@@ -6,42 +6,42 @@
 <title>Bushra Batool — AI/ML Engineer</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="docbar">
   <div class="wrap">
-    <span class="mark mono">BUSHRA BATOOL</span>
-    <span class="meta mono">AI/ML Engineer · Rawalpindi, Pakistan</span>
+    <span class="mark">Bushra Batool</span>
+    <nav class="navlinks">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </div>
 </div>
 
 <header class="hero">
   <div class="wrap">
+    <p class="eyebrow mono">AI/ML Engineer · Rawalpindi, Pakistan</p>
     <h1>AI systems that show their work, not just their output.</h1>
     <p class="lede">I build computer vision, GenAI, and agentic AI systems — from a diagnostic model that explains its own predictions, to a document pipeline that catches its own extraction errors before handing off a result.</p>
-    <div class="stats">
-      <div class="stat">
-        <div class="num">98.8%</div>
-        <div class="label">Peak model accuracy, benchmarked against 3 other architectures</div>
-      </div>
-      <div class="stat">
-        <div class="num">5</div>
-        <div class="label">ML/AI systems shipped end to end</div>
-      </div>
-      <div class="stat">
-        <div class="num">2×</div>
-        <div class="label">Self-correction retries built into the invoice pipeline</div>
-      </div>
-      <div class="stat">
-        <div class="num">83.5%</div>
-        <div class="label">Cross-validated accuracy, heart disease risk model</div>
-      </div>
+    <div class="cta-row">
+      <a class="cta primary" href="#work">View my work</a>
+      <a class="cta secondary" href="#contact">Get in touch</a>
     </div>
   </div>
 </header>
+
+<section class="divider" id="about">
+  <div class="wrap wrap-narrow">
+    <h2 class="section-title">About</h2>
+    <p class="about-text">I'm a Computer Science graduate (BS, 2026) who got pulled into AI somewhere along the way and never really left. What I like about this field is the gap between a model that works in a notebook and one that works for someone — so most of my projects end with a real interface and an API, not just a metric.</p>
+    <p class="about-text">Alongside my own projects, I spent a year teaching Computer Science, which shaped how I explain things — including my own work. I'm currently deep in computer vision and building out agentic/RAG systems, with FastAPI and React as my usual way of shipping whatever I build.</p>
+  </div>
+</section>
 
 <section class="divider" id="work">
   <div class="wrap">
@@ -51,7 +51,7 @@
     <div class="case live">
       <div class="case-head">
         <div class="case-title-row">
-          <span class="case-id mono">CASE 01</span>
+          <span class="case-id mono">01</span>
           <h3>Brain Tumor Detection</h3>
         </div>
         <span class="badge live">Live</span>
@@ -68,10 +68,10 @@
       </div>
       <div class="case-foot">
         <span class="metric"><span class="mono">98.8%</span> accuracy — best of 4 architectures benchmarked</span>
-        <span class="links">
-          <a href="https://bushrabatool0605-braintumordetectionsystem.hf.space/login" target="_blank" rel="noopener">Live demo</a>
-          <a href="https://github.com/bushrabatool0605/brain-tumor-detection" target="_blank" rel="noopener">GitHub</a>
-          <a href="https://www.linkedin.com/posts/bushrabatool0605_artificialintelligence-machinelearning-deeplearning-activity-7486786358863151104-eUQs" target="_blank" rel="noopener">Video</a>
+        <span class="case-actions">
+          <a class="btn-fill" href="https://bushrabatool0605-braintumordetectionsystem.hf.space/login" target="_blank" rel="noopener">Live Demo <span class="arrow">&#8599;</span></a>
+          <a class="btn-outline" href="https://github.com/bushrabatool0605/brain-tumor-detection" target="_blank" rel="noopener">GitHub <span class="arrow">&#8599;</span></a>
+          <a class="btn-outline" href="https://www.linkedin.com/posts/bushrabatool0605_artificialintelligence-machinelearning-deeplearning-activity-7486786358863151104-eUQs" target="_blank" rel="noopener">Video <span class="arrow">&#8599;</span></a>
         </span>
       </div>
     </div>
@@ -79,7 +79,7 @@
     <div class="case video">
       <div class="case-head">
         <div class="case-title-row">
-          <span class="case-id mono">CASE 02</span>
+          <span class="case-id mono">02</span>
           <h3>DocuVeritas</h3>
         </div>
         <span class="badge video">Demo video</span>
@@ -96,20 +96,22 @@
       </div>
       <div class="case-foot">
         <span class="metric">Self-correcting — <span class="mono">catches its own extraction errors</span> before approval</span>
-        <span class="links"><a href="https://lnkd.in/p/djr7HipQ" target="_blank" rel="noopener">Watch the demo</a></span>
+        <span class="case-actions">
+          <a class="btn-fill" href="https://lnkd.in/p/djr7HipQ" target="_blank" rel="noopener">Watch Demo <span class="arrow">&#8599;</span></a>
+        </span>
       </div>
     </div>
 
     <div class="case live">
       <div class="case-head">
         <div class="case-title-row">
-          <span class="case-id mono">CASE 03</span>
+          <span class="case-id mono">03</span>
           <h3>AI Sales Intelligence Dashboard</h3>
         </div>
         <span class="badge live">Live</span>
       </div>
       <p class="outcome">Turns raw sales CSVs into forecasts and answers, not just charts.</p>
-      <p class="desc">A multi-page Streamlit dashboard for sales data — upload a CSV and get category, region, and product breakdowns alongside a 4-month revenue forecast. Built with a regression-based forecasting module, interactive filters, and a data explorer with statistical summaries and CSV export, wrapped in a dark-themed dashboard UI.</p>
+      <p class="desc">A multi-page Streamlit dashboard for sales data — upload a CSV and get category, region, and product breakdowns alongside a 4-month revenue forecast. Built with a regression-based forecasting module, interactive filters, and a data explorer with statistical summaries and CSV export.</p>
       <div class="shots">
         <img src="images/sales-forecast-chart.png" alt="AI Sales Intelligence Dashboard showing historical revenue and 4-month forecast">
         <img src="images/sales-analytics-breakdown.png" alt="Sales analytics breakdown by category, region and product">
@@ -119,10 +121,10 @@
       </div>
       <div class="case-foot">
         <span class="metric">4-month forecast, <span class="mono">multi-page</span> analytics app</span>
-        <span class="links">
-          <a href="https://ai-sales-intelligence-dashboard-ayfc8heo7zappvx9edac4k.streamlit.app/" target="_blank" rel="noopener">Live demo</a>
-          <a href="https://github.com/bushrabatool0605/AI-Sales-Intelligence-Dashboard" target="_blank" rel="noopener">GitHub</a>
-          <a href="https://lnkd.in/p/dpSicjeZ" target="_blank" rel="noopener">Video</a>
+        <span class="case-actions">
+          <a class="btn-fill" href="https://ai-sales-intelligence-dashboard-ayfc8heo7zappvx9edac4k.streamlit.app/" target="_blank" rel="noopener">Live Demo <span class="arrow">&#8599;</span></a>
+          <a class="btn-outline" href="https://github.com/bushrabatool0605/AI-Sales-Intelligence-Dashboard" target="_blank" rel="noopener">GitHub <span class="arrow">&#8599;</span></a>
+          <a class="btn-outline" href="https://lnkd.in/p/dpSicjeZ" target="_blank" rel="noopener">Video <span class="arrow">&#8599;</span></a>
         </span>
       </div>
     </div>
@@ -130,7 +132,7 @@
     <div class="case live">
       <div class="case-head">
         <div class="case-title-row">
-          <span class="case-id mono">CASE 04</span>
+          <span class="case-id mono">04</span>
           <h3>Email Spam Classifier</h3>
         </div>
         <span class="badge live">Live</span>
@@ -146,9 +148,9 @@
       </div>
       <div class="case-foot">
         <span class="metric">Instant prediction, <span class="mono">no server round-trip lag</span></span>
-        <span class="links">
-          <a href="https://email-spam-classifier0.streamlit.app/" target="_blank" rel="noopener">Live demo</a>
-          <a href="https://github.com/bushrabatool0605/email-spam-classifier" target="_blank" rel="noopener">GitHub</a>
+        <span class="case-actions">
+          <a class="btn-fill" href="https://email-spam-classifier0.streamlit.app/" target="_blank" rel="noopener">Live Demo <span class="arrow">&#8599;</span></a>
+          <a class="btn-outline" href="https://github.com/bushrabatool0605/email-spam-classifier" target="_blank" rel="noopener">GitHub <span class="arrow">&#8599;</span></a>
         </span>
       </div>
     </div>
@@ -156,7 +158,7 @@
     <div class="case">
       <div class="case-head">
         <div class="case-title-row">
-          <span class="case-id mono">CASE 05</span>
+          <span class="case-id mono">05</span>
           <h3>Heart Disease Risk Prediction</h3>
         </div>
         <span class="badge">Open source</span>
@@ -171,14 +173,16 @@
       </div>
       <div class="case-foot">
         <span class="metric"><span class="mono">83.5%</span> cross-validated accuracy</span>
-        <span class="links"><a href="https://github.com/bushrabatool0605/Heart-Disease-Prediction" target="_blank" rel="noopener">GitHub</a></span>
+        <span class="case-actions">
+          <a class="btn-fill" href="https://github.com/bushrabatool0605/Heart-Disease-Prediction" target="_blank" rel="noopener">GitHub <span class="arrow">&#8599;</span></a>
+        </span>
       </div>
     </div>
 
     <div class="case">
       <div class="case-head">
         <div class="case-title-row">
-          <span class="case-id mono">CASE 06</span>
+          <span class="case-id mono">06</span>
           <h3>Classification &amp; Regression Bundle</h3>
         </div>
         <span class="badge">Open source</span>
@@ -194,50 +198,66 @@
       </div>
       <div class="case-foot">
         <span class="metric">4 datasets, <span class="mono">4 tuned models</span></span>
-        <span class="links"><a href="https://github.com/bushrabatool0605/ML-Learning-Journey" target="_blank" rel="noopener">GitHub</a></span>
+        <span class="case-actions">
+          <a class="btn-fill" href="https://github.com/bushrabatool0605/ML-Learning-Journey" target="_blank" rel="noopener">GitHub <span class="arrow">&#8599;</span></a>
+        </span>
       </div>
     </div>
 
   </div>
 </section>
 
-<section class="divider" id="capabilities">
+<section class="divider" id="experience">
+  <div class="wrap wrap-narrow">
+    <h2 class="section-title">Experience &amp; education</h2>
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-when mono">2024 — 2025</div>
+        <div class="tl-body">
+          <h4>CS Instructor</h4>
+          <p>Wings School and College</p>
+          <p class="tl-desc">Taught Computer Science fundamentals — programming logic, problem-solving, and core CS concepts — while continuing to build and ship my own ML projects on the side.</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-when mono">2022 — 2026</div>
+        <div class="tl-body">
+          <h4>BS in Computer Science</h4>
+          <p class="tl-desc">Graduated 2026.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="divider" id="skills">
   <div class="wrap">
-    <h2 class="section-title">Stack &amp; capabilities</h2>
+    <h2 class="section-title">Stack &amp; skills</h2>
     <p class="section-sub">What's underneath the systems above.</p>
-    <div class="cap-grid">
-      <div class="cap-col">
+    <div class="skill-groups">
+      <div class="skill-group">
         <h4>Agentic AI &amp; GenAI</h4>
-        <ul>
-          <li>RAG pipelines — chunking, embeddings, reranking</li>
-          <li>LangChain &amp; LangGraph — stateful graphs, persistence, human-in-the-loop</li>
-          <li>Agent patterns — routing, evaluator-optimizer, orchestrator-workers</li>
-          <li>Vector search — FAISS, Pinecone</li>
-        </ul>
+        <div class="chips">
+          <span class="chip">RAG pipelines</span><span class="chip">LangChain</span><span class="chip">LangGraph</span><span class="chip">FAISS</span><span class="chip">Pinecone</span>
+        </div>
       </div>
-      <div class="cap-col">
+      <div class="skill-group">
         <h4>Computer Vision &amp; Deep Learning</h4>
-        <ul>
-          <li>CNN architectures — VGG16, ResNet, EfficientNet, DenseNet, MobileNetV2</li>
-          <li>TensorFlow/Keras &amp; PyTorch</li>
-          <li>Model explainability — Grad-CAM</li>
-          <li>Medical image classification</li>
-        </ul>
+        <div class="chips">
+          <span class="chip">TensorFlow/Keras</span><span class="chip">PyTorch</span><span class="chip">VGG16 / ResNet / EfficientNet</span><span class="chip">Grad-CAM</span>
+        </div>
       </div>
-      <div class="cap-col">
+      <div class="skill-group">
         <h4>Full-Stack Engineering</h4>
-        <ul>
-          <li>FastAPI &amp; Node/Express APIs</li>
-          <li>React front ends</li>
-          <li>MongoDB, JWT auth</li>
-          <li>Docker, Hugging Face Spaces, Streamlit Cloud</li>
-        </ul>
+        <div class="chips">
+          <span class="chip">FastAPI</span><span class="chip">React</span><span class="chip">MongoDB</span><span class="chip">Docker</span><span class="chip">Streamlit</span>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="contact">
+<section class="contact" id="contact">
   <div class="wrap">
     <h2>Let's build your AI system.</h2>
     <p>Freelance clients get a tested, documented handoff — model, API, and interface, not just a notebook. Also open to full-time and internship roles.</p>
@@ -251,7 +271,7 @@
 <footer>
   <div class="wrap">
     <span>Bushra Batool — 2026</span>
-    <span><a href="https://github.com/bushrabatool0605" style="color:inherit" target="_blank" rel="noopener">github.com/bushrabatool0605</a></span>
+    <span><a href="https://github.com/bushrabatool0605" target="_blank" rel="noopener">github.com/bushrabatool0605</a></span>
   </div>
 </footer>
 
